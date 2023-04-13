@@ -1,14 +1,13 @@
-//enter postive numbers terminated by zero and find sum and avg
 <script>
   count = 0
   sum = 0
-	n = ("Enter the values")
+	n = parseFloat(prompt("Enter the values"))
 	while(n != 0){
-    count ++;
-    sum = sum + n;
-		n = promt("Enter the values")
+    count ++
+    sum = sum + n
+	n = parseFloat(prompt("Enter the values"))
    }
-   alert(sum);
+   alert("this is sum " + sum)
    avg = sum / count;
-   alert(avg);
+   alert("this is avg " +avg)
 </script>

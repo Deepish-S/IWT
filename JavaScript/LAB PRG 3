@@ -1,0 +1,8 @@
+<script>
+	str = "number squre cube \n"
+	for(i=5;i<=15;i++){
+	sq = i * i
+	cub = i * i * i
+	str = str +" " +i+" "+ sq+" " +cub +"\n"}
+	alert(str)
+</script>

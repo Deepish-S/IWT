@@ -11,3 +11,15 @@
    avg = sum / count;
    alert("this is avg " +avg)
 </script>
+
+
+
+//prgrm to display number squre cube
+<script>
+	str = "number squre cube \n"
+	val = parseInt(prompt("Enter The Value "))
+	sq = val * val
+	cub = val * val * val
+	str = str +" " +val+" "+ sq+" " +cub  
+	alert(str)
+</script>

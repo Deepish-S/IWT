@@ -29,3 +29,13 @@ for(i=0;i<5;i++)
 }
 alert("End of For Loop");
 </script>
+//this is the script for javascript iteration takes 5 values and print 5 values untill user enter zero
+<script>
+n= prompt("Enter your values ");
+while(n!=0)
+{
+  n=prompt("Enter Your Values");
+  alert(n);
+}
+alert("End of For Loop");
+</script>

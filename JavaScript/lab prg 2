@@ -1,0 +1,14 @@
+//enter postive numbers terminated by zero and find sum and avg
+<script>
+  count = 0
+  sum = 0
+	n = ("Enter the values")
+	while(n != 0){
+    count ++;
+    sum = sum + n;
+		n = promt("Enter the values")
+   }
+   alert(sum);
+   avg = sum / count;
+   alert(avg);
+</script>

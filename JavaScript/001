@@ -1,0 +1,16 @@
+//this is the script for javascript which says hi on website visit
+<script>
+alert("Hi");
+</script>
+
+//this is the script for javascript which promts input on website visit
+<script>
+n=promt("Enter your name");
+alert("hi "+n);
+</script>
+
+//this is the script for javascript which ask "do you want tio continue"
+<script>
+msg = confrim("Do you need to continue");
+alert(msg);
+</script>

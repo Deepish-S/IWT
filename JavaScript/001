@@ -5,12 +5,27 @@ alert("Hi");
 
 //this is the script for javascript which promts input on website visit
 <script>
-n=promt("Enter your name");
+n=prompt("Enter your name");
 alert("hi "+n);
 </script>
 
 //this is the script for javascript which ask "do you want tio continue"
 <script>
-msg = confrim("Do you need to continue");
+msg = confirm("Do you need to continue");
 alert(msg);
+</script>
+
+//iteration in js 
+for(initialization;condition;increment or decrement)
+{
+
+}
+//this is the script for javascript iteration takes 5 values and print 5 values
+<script>
+for(i=0;i<5;i++)
+{
+  val=prompt("Enter Your Values");
+  alert(val);
+}
+alert("End of For Loop");
 </script>

@@ -1,0 +1,30 @@
+<html> <head> <title> Student Registration Form </title> </head>
+
+<body> <h1> Student Registration Form </h1>
+<form>
+name <input type= "text" name="name"> <br/> 
+Phone number <input type="text" name="phro"> <br/> 
+DOB <input type="date" > <br/> 
+
+Gender <input type="radio"Name="gender" value="M"> Male
+       <input type="radio" name="gender" value="F"> Female 
+       <input type="radio" name= "gender" value="o" > Other  <br/>
+Course <select> 
+<option> BCA </option>
+<option> Bcom </option>
+<option> BSc </option>
+</select>
+<p>language <input type="checkbox" name = "lan" value="kan" > Kannada 
+         <input type="checkbox" value="lan" value="hin" > Hindi
+<input type="checkbox" value="lan" value="eng"> English </p>
+
+
+Address <textarea rows=5 cols = 100></textarea><br/>
+<p>Upload Pic <input type="file"></p>
+<p>Password <input type="password" name="pwd"></p>
+
+<input type="submit"> 
+<input type="reset">
+</form>
+</body>
+</html>

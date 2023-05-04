@@ -1,4 +1,9 @@
-<html> <head> <title> Student Registration Form </title> </head>
+<html> <head> <title> Student Registration Form </title>
+<script> function count() {
+       n = document.getElementById("id1").length;
+       alert("Number of element" + n);
+} </script>
+</head>
 
 <body> <h1> Student Registration Form </h1>
 <form>

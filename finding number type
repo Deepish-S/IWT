@@ -1,0 +1,22 @@
+<html>
+<script>
+	arr = [];
+	posco=zero=negc=0;
+	n = parseInt(prompt("Enter Number Of Values : "));
+	for(i=0;i<n;i++)
+		{
+			val = parseInt(prompt("Enter values"));		
+			arr.push(val);
+		}
+	for(i=0;i<n;i++)
+	{
+		if(arr[i]>0)
+			posco++;
+		else if(arr[i] < 0)
+			negc++;
+		else
+			zero++;
+	}
+document.write("number of positive value" + posco +"<br>"+"number of negative value" + negc+"<br>"+"number of zero" + zero+"<br>");
+</script>
+</html>

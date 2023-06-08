@@ -17,7 +17,7 @@ for(i=0;i<main.options.length;i++)
 }
 for(i=0;i<starter.options.length;i++)
 {   
-           ch=main.options[i];
+           ch=starter.options[i];
            if(ch.selected==true)
         {
             price=parseInt(ch.value);
@@ -27,7 +27,7 @@ for(i=0;i<starter.options.length;i++)
 }
 for(i=0;i<soft.options.length;i++)
 {   
-           ch=main.options[i];
+           ch=soft.options[i];
            if(ch.selected==true)
         {
             price=parseInt(ch.value);

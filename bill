@@ -1,35 +1,64 @@
-<html>
-<head>
-<title>GOPAL CAfE</title>
-<body><bg color="black"></body>
-MAIN
-<select id ="MAIN" multiple>
-<option value ="50"> RICE </option>
-<option value="80">VANGIBATH WITH TORTISE tail</option>
-<option value="100"> GOPAL SPL MIXED MEAT RICE</option>
-<option value="30"> CURD RICE WITH MONKEY TAIL </option></select>
-STARTER
-<select id ="STARTER" multiple>
-<option>STARTER</option>
-<option value ="30"> TOMATO SOUP WITH COCKROACHES </option>
-<option value="80">RAT GARLIC SOUP</option>
-<option value="100"> SNAKE WITH LIZARD TAIL SOUP</option>
-<option value="120">  GOPAL SPL CROCODILE SOUP</option></select>
-DRINKS
-<select id ="DRINKS" multiple>
-<option value="50"> GRASSHOPPER COLA </option>
-<option value="40"> THUMBS DOWN </option>
-<option value="30"> GOPAL DRINKS </option></select>
-<br>	
-<textarea rows = 6 cols = 15 id= "price">Price </textarea>
-</head>
-</html>
+<script>
+function bill(){
+          main=document.getElementById("main");
+          starter=document.getElementById("starter");
+           soft=document.getElementById("soft");
+           msg="item cost\n";
+           total=0;
+for(i=0;i<main.options.length;i++)
+{   
+           ch=main.options[i];
+           if(ch.selected==true)
+        {
+            price=parseInt(ch.value);
+            total=total+price;
+            msg=msg+ch.text+" "+price+"\n";
+          }
+}
+for(i=0;i<starter.options.length;i++)
+{   
+           ch=main.options[i];
+           if(ch.selected==true)
+        {
+            price=parseInt(ch.value);
+            total=total+price;
+            msg=msg+ch.text+" "+price+"\n";
+          }
+}
+for(i=0;i<soft.options.length;i++)
+{   
+           ch=main.options[i];
+           if(ch.selected==true)
+        {
+            price=parseInt(ch.value);
+            total=total+price;
+            msg=msg+ch.text+" "+price+"\n";
+          }
+}
+msg=msg+"total cost"+total;
+document.getElementById("disp").value=msg;
+}
+</script>
+<form>
+<select id="main" multiple="">
+     <option value="80">rice</option>
+     <option value="100">briyani</option>
+     <option value="250">chapathiiiiii</option>
+      <option value="150">porota</option>
+</select><br>
+<select id="starter" multiple="">
+        <option value="100">babycorn</option>
+        <option value="130">tandoori</option>
+        <option value="160" chicken66</option>
+</option></select><br>
+<select id="soft" multiple="">
+         <option value="40">coke</option>
+         <option value="200">Merinda</option>
+          <option value="110">Fanta</option>
+          <option value="105">Spirit</option>
+</select>
+<textarea rows="5" cols="50" id="disp"></textarea><br>
+<input type="button" onclick="bill()" value="submit">
+<input type="reset" value="reset">
 
-
-
-
-
-
-
-
-
+</form>

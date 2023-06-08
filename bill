@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>GOPAL CAfE</title>
+<body><bg color="black"></body>
+MAIN
+<select id ="MAIN" multiple>
+<option value ="50"> RICE </option>
+<option value="80">VANGIBATH WITH TORTISE tail</option>
+<option value="100"> GOPAL SPL MIXED MEAT RICE</option>
+<option value="30"> CURD RICE WITH MONKEY TAIL </option></select>
+STARTER
+<select id ="STARTER" multiple>
+<option>STARTER</option>
+<option value ="30"> TOMATO SOUP WITH COCKROACHES </option>
+<option value="80">RAT GARLIC SOUP</option>
+<option value="100"> SNAKE WITH LIZARD TAIL SOUP</option>
+<option value="120">  GOPAL SPL CROCODILE SOUP</option></select>
+DRINKS
+<select id ="DRINKS" multiple>
+<option value="50"> GRASSHOPPER COLA </option>
+<option value="40"> THUMBS DOWN </option>
+<option value="30"> GOPAL DRINKS </option></select>
+<br>	
+<textarea rows = 6 cols = 15 id= "price">Price </textarea>
+</head>
+</html>
+
+
+
+
+
+
+
+
+

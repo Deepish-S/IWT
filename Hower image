@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript</title>
+  <script>
+function disp(id) {       d = document.getElementById(id);       d.style.zIndex = 10;     }
+function hid(id) {       d = document.getElementById(id);       d.style.zIndex = 0;     }
+  </script>
+  <style>
+.img1 {       top: 100px;       left: 100px;       position: absolute;       z-index: 0;       height: 200px;       width: 200px;     }
+.img2 {       top: 100px;       left: 150px;       position: absolute;       z-index: 0;       height: 200px;       width: 200px;     }
+.img3 {       top: 100px;       left: 200px;       position: absolute;       z-index: 0;       height: 200px;       width: 200px;     }
+  </style>
+</head>
+<body>
+  <img src="images3.jpeg" id="img1" onmouseover="disp('img1')" onmouseout="hid('img1')"class="img1" id="1" onmouseover= "disp('1')" onmouseout="hid('1')">
+  <img src="images2.jpeg" id="img2" onmouseover="disp('img2')" onmouseout="hid('img2')"class="img2" id="2" onmouseover= "disp('2')" onmouseout="hid('2')">
+  <img src="images1.jpeg" class="img3" id="img3" onmouseover="disp('img3')" onmouseout="hid('img3')"class="img1" id="3" onmouseover= "disp('3')" onmouseout="hid('3')">
+</body>
+</html>
